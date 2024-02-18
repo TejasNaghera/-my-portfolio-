@@ -1,0 +1,380 @@
+:root{
+    --fontcolor-red:red;
+    --fontcolor-w:rgb(255, 255, 255);
+    --comancolor-w:#ebeef1
+    
+    /* ////////////////border//////////////// */
+ 
+ 
+ 
+    --box-s:90px 30px 60px  #08080846 , inset -20px -20px 60px #ffffffbd ; 
+     
+    --box2-s: inset 10px 10px 10px -1px  rgba(19, 27, 33, 0.16) ,inset -10px -10px 10px -1px rgba(255,255,255,0.78); 
+    --box3-s:  10px 10px 10px -1px  rgba(19, 27, 33, 0.20) , -10px -10px 10px -1px rgba(255,255,255,1.98); 
+}
+
+@media (max-width:1024px){
+   
+    .main-max{
+        height: auto;
+    }
+    .about-box{
+        height: auto;
+    }
+    .btn-row{
+        height: auto;
+        width: auto;
+        /* background-color: aqua; */
+       gap: 0px;
+    }
+    
+    .headerbox{
+        height: auto;
+    }
+    .may-dital{
+        margin-top: 20px;
+        margin-left: 250px;
+        height: auto;
+    }
+    .skill{
+        margin-top: 80px;
+        margin-left: 250px;
+    }
+    /* ////////////////////project////////////////// */
+    .projectbox{
+        height: auto;
+       
+    }
+    .cadbox{
+        height: auto;
+       gap: 20px;
+       padding-top: 20px;
+       padding-bottom: 20px;
+    }
+    /* /////////////////////////////contact//////////////////// */
+    .contact{
+        height: auto;
+    }
+    
+    .cont-secadbox{
+        height: auto;
+
+    }
+    .icon2{
+        margin-left: 10px;
+    }
+    
+}
+
+
+
+/* ////////////////////////////////////////////////////////teb///////////////////////////////////////// */
+
+@media (max-width:768px){
+        
+    body{
+        overflow-x: hidden;
+    }
+    
+    .ul-box{
+        /* position: relative; */
+        border-radius: 10px;
+        height: 300px;
+        width: 250px;
+        display: inline-block;
+        flex-direction: column;
+        position: relative;
+        top: -400px;
+        left: 170px; 
+      
+        /* background-color:var(--comancolor-w); */
+        box-shadow:var(--box2-s);
+        /* transform: translate(150px,-450px); */
+        transition: 0.8s;
+        background-color: rgb(84, 104, 104);
+        
+        /* margin-left: -200px; */
+    
+    }
+    .ul-box>li{
+        margin-left: 70px;
+    }
+    .reyal{
+        top: 200px;
+        z-index:999 ;
+        /* transform: translate(150px,00px); */
+    }
+    ul>li{
+        margin-top: 20px;
+        margin-left: 35px;
+        z-index: 999;
+    }
+    .icon{
+        margin-top: 20px;
+        margin-left: 65px;
+    }
+    .R-btn{
+        position: sticky;
+        display: block;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        /* margin-left: 600px; */
+        z-index: 5;
+    }
+    .headerbox{
+        height:auto;
+        width: 100vw;
+      
+        padding-bottom:30px;
+        margin-top: 20px;
+        
+    }
+    /* .may-dital{
+        margin-left: 100px;
+      
+    } */
+/* ///////////////////////////////////main/////////////////////// */
+.about-box{
+    /* background-color: aqua; */
+    height: auto;
+    padding-left: 20px;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+
+.may-dital{
+    margin-top: 20px;
+    margin-left: 95px;
+}
+.skill{
+    margin-top: 80px;
+    margin-left: 95px;
+}
+.map-box{
+    margin-top: 20px;
+}
+
+}
+
+
+
+
+
+
+
+/* ///////////////////moL////////////////////////////// */
+
+@media (max-width:426px){
+    .nav-box{
+        padding-right: 20px;
+    }
+    ul{
+        left: 140px;
+    }
+    .ul-box{
+        left: 50px;
+        
+    }
+    .reyal{
+       
+        /* transform: translate(40px,0px); */
+        background-color: rgb(84, 104, 104);
+        z-index:9;
+        /* background-color: rgba(110, 16, 54, 0.53); */
+        /* transform: translate(150px,00px); */
+    }
+    .headerbox{
+        width: 100vw;
+        padding-left: 20px;
+        padding-right: 20px;
+     
+      padding-bottom: 10px;
+      /* padding-right: 20px;
+      padding-top: 20px; */
+      
+      
+    }
+        .abut-tital{
+            margin-left: 25px;
+        }
+    .mayintro{
+        height: auto;
+        /* width: 300px; */
+
+    }
+    /* ///////////////////////main///////////// */
+    .mana-tital{
+        margin-left: 25px;
+    }
+  
+   .may-dital{
+    margin-top: 20px;
+    margin-left: 0px;
+   }
+   .skill{
+       /* margin-top: 80px; */
+       margin-right:0px;
+       margin-left: 0px;
+       margin-bottom: 20px;
+   }
+   .scroll-btn{
+    transform: translate(280px,280px);
+   }
+    
+   .pro-tital{
+    margin-left: 35px;
+   }
+   .cadbox{
+    margin-left: 35px;
+   }
+   .cad:hover>p{
+    margin-top: 180px;
+   }
+   .form-cad{
+    margin-left: 50px;
+   }
+   .input-email{
+    width: 350px;
+   }
+   .input-phone{
+    width: 350px;
+   }
+    textarea{
+        width: 370px;
+    }
+    .app{
+        width: 370px;
+    }
+    .map-box{
+        margin-left: 30px;
+    }
+} 
+
+
+
+
+
+
+
+
+
+
+/* ///////////////////mobile M///////////////////// */
+@media (max-width:376px){
+    .ul-box>li{
+        margin-left: 50px;
+    }
+    .mayintro{
+        height: auto;
+       margin-right: 10px;
+
+    }
+   
+  .form-cad{
+    width: 200px;
+    margin-left: 20px;
+  }  
+  .icon2{
+    margin-left: 10px;
+  }
+  .icon{
+    margin-top: 20px;
+    margin-left: 45px;
+}
+/* /////////////////////contact//////////////////////////// */
+.cont-secadbox{
+   margin-left: -10px;
+}
+  .conta-chedig{
+   margin-left: 25px;
+  }
+   
+    .map-box{
+        width: 280px;
+        height: 250px;
+        
+    }
+    .map{
+        height: 250px;
+        width: 280px;
+    }
+    .form-box{
+       margin-left: -40px;
+    }
+    .form-cad{
+        padding-left: -50px;
+    }
+    .input-box{
+        width: 240px;
+    }
+    .input-email{
+        width: 240px; 
+    }
+    .input-phone{
+        width: 240px;  
+    }
+    textarea{
+        width: 270px;    
+    }
+    .app{
+        width: 280px; 
+    }
+
+}
+/* ////////////////////////////////////320mo///////////////////////////////////// */
+@media (max-width:321px){
+    .ul-box>li{
+        margin-left: 30px;
+    }
+    .ul-box>.icon{
+        margin-left:30px;
+    }
+    .mayintro{
+        height: auto;;
+
+    }
+    .social-icon{
+        height: auto;
+
+    }
+.mayintro{
+    /* height: 400px; */
+    width: 550px;
+    overflow: hidden;
+    /* margin-left: 30px; */
+}
+.mayimg{
+    height: auto;
+}
+.mayimg>img{
+    height: auto;
+}
+.may-dital{
+    height: auto;
+    width: 260px;
+    margin-left: -1px;
+   
+}
+
+.cad:hover > p{
+    margin-top: 150px;
+}
+.map-box{
+    margin-left: 50px;
+}
+.scroll-btn{
+    display: none;
+
+}
+}
+@media (max-width:299px){
+    .cad> p{
+        font-size: 14px;
+       
+      overflow-y:auto;
+      
+    }
+
+    }
