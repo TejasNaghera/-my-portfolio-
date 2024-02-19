@@ -373,7 +373,7 @@
 
 }
 }
-@media (max-width:320px){
+@media (max-width:250px){
     .cad> p{
         font-size: 14px;
        
@@ -381,7 +381,7 @@
       
     }
     .cad:hover > p{
-    margin-top: 130px;
+    margin-top: 140px;
      background-color: aqua;
         
   
