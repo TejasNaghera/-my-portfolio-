@@ -360,7 +360,7 @@
 
 .cad:hover > p{
     margin-top: 130px;
-    background-color: aqua;
+/*     background-color: aqua; */
   
 }
  .cad>p{
@@ -374,7 +374,7 @@
 
 }
 }
-@media (max-width:340px){
+@media (max-width:360px){
     .cad> p{
         font-size: 14px;
        
