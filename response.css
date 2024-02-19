@@ -369,11 +369,11 @@
 
 }
 }
-@media (max-width:315px){
+@media (max-width:320px){
     .cad> p{
         font-size: 14px;
        
-      overflow-y:auto;
+/*       overflow-y:auto; */
       
     }
 
