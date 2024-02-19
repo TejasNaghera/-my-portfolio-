@@ -369,7 +369,7 @@
 
 }
 }
-@media (min-width:99px){
+@media (max-width:315px){
     .cad> p{
         font-size: 14px;
        
