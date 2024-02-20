@@ -285,7 +285,7 @@
 }
     .cad:hover > p{
     margin-top: 130px;
-/*     background-color: aqua; */
+    background-color: aqua;
   
 }
 /* /////////////////////contact//////////////////////////// */
@@ -382,7 +382,7 @@
 @media (max-width:351px){
   
     .cad:hover > p{
-    margin-top: 130px;
+    margin-top: 140px;
 /*      background-color: aqua; */
         
   
