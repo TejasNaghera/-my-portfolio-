@@ -324,7 +324,7 @@
 
 }
 /* ////////////////////////////////////320mo///////////////////////////////////// */
-@media (max-width:351px){
+@media (max-width:321px){
     .ul-box>li{
         margin-left: 30px;
     }
@@ -374,18 +374,13 @@
 
 }
 }
-@media (max-width:360px){
-    .cad> p{
-        font-size: 14px;
-       
-/*       overflow-y:auto; */
-      
-    }
+@media (max-width:351px){
+  
     .cad:hover > p{
     margin-top: 140px;
-     background-color: aqua;
+/*      background-color: aqua; */
         
   
-}
-
     }
+
+ }
