@@ -364,7 +364,7 @@
 }
 
 .cad:hover > p{
-    margin-top: 140px;
+    margin-top: 145px;
 /*     background-color: pink; */
   
 }
@@ -382,7 +382,7 @@
 @media (max-width:351px){
   
     .cad:hover > p{
-    margin-top: 140px;
+    margin-top: 145px;
 /*      background-color: aqua; */
         
   
