@@ -284,8 +284,8 @@
     margin-left: 45px;
 }
     .cad:hover > p{
-    margin-top: 140px;
-    background-color: aqua;
+    margin-top: 145px;
+/*     background-color: aqua; */
   
 }
 /* /////////////////////contact//////////////////////////// */
@@ -365,7 +365,7 @@
 
 .cad:hover > p{
     margin-top: 140px;
-    background-color: pink;
+/*     background-color: pink; */
   
 }
  .cad>p{
